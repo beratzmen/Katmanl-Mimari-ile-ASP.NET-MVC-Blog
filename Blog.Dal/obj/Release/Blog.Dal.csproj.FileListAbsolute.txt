@@ -1,0 +1,12 @@
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Dal\bin\Release\Blog.Dal.dll.config
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Dal\bin\Release\Blog.Dal.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Dal\bin\Release\Blog.Dal.pdb
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Dal\bin\Release\Blog.Entity.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Dal\bin\Release\EntityFramework.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Dal\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Dal\bin\Release\Blog.Entity.pdb
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Dal\bin\Release\EntityFramework.xml
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Dal\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Dal\obj\Release\Blog.Dal.csprojResolveAssemblyReference.cache
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Dal\obj\Release\Blog.Dal.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Dal\obj\Release\Blog.Dal.pdb

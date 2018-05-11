@@ -1,0 +1,13 @@
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Bll\bin\Debug\Blog.Bll.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Bll\bin\Debug\Blog.Bll.pdb
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Bll\bin\Debug\Blog.Dal.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Bll\bin\Debug\Blog.Entity.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Bll\bin\Debug\Blog.Interfaces.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Bll\bin\Debug\EntityFramework.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Bll\bin\Debug\Blog.Dal.pdb
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Bll\bin\Debug\Blog.Entity.pdb
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Bll\bin\Debug\Blog.Interfaces.pdb
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Bll\bin\Debug\EntityFramework.xml
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Bll\obj\Debug\Blog.Bll.csprojResolveAssemblyReference.cache
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Bll\obj\Debug\Blog.Bll.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Bll\obj\Debug\Blog.Bll.pdb

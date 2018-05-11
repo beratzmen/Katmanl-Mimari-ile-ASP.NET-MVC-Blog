@@ -1,0 +1,12 @@
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\bin\Debug\Blog.Entity.dll.config
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\bin\Debug\Blog.Entity.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\bin\Debug\Blog.Entity.pdb
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\bin\Debug\Attributes.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\bin\Debug\EntityFramework.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\bin\Debug\System.Web.Mvc.Extensions.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\bin\Debug\EntityFramework.xml
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\bin\Debug\System.Web.Mvc.Extensions.xml
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\obj\Debug\Blog.Entity.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\obj\Debug\Blog.Entity.pdb

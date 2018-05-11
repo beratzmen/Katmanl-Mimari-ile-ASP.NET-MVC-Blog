@@ -1,0 +1,7 @@
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Interfaces\bin\Debug\Blog.Interfaces.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Interfaces\bin\Debug\Blog.Interfaces.pdb
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Interfaces\bin\Debug\Blog.Entity.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Interfaces\bin\Debug\Blog.Entity.pdb
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Interfaces\obj\Debug\Blog.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Interfaces\obj\Debug\Blog.Interfaces.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Interfaces\obj\Debug\Blog.Interfaces.pdb

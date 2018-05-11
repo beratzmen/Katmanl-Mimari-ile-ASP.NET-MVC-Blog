@@ -1,0 +1,13 @@
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\bin\Release\Blog.Entity.dll.config
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\bin\Release\Blog.Entity.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\bin\Release\Blog.Entity.pdb
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\bin\Release\Attributes.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\bin\Release\EntityFramework.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\bin\Release\System.Web.Mvc.Extensions.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\bin\Release\EntityFramework.xml
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\bin\Release\System.Web.Mvc.Extensions.xml
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\obj\Release\Blog.Entity.csprojResolveAssemblyReference.cache
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\obj\Release\Blog.Entity.dll
+C:\Users\bzmen\Desktop\Sitem\Blog\Blog.Entity\obj\Release\Blog.Entity.pdb

@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Blog.Entity.Models.Makale>
+@{ 
+    Layout = null;
+}
+
+
+@using Blog.UI.Models
+<div class="card my-4" style="text-align:center">
+    <h5 class="card-header">Populer Makaleler</h5>
+    <div class="card-body">
+        <ul>
+            @foreach (var item in Model)
+            {
+                <li><a href="@Url.Action("MakaleDetay","Home",
+                         new
+                    {
+                        kategori =@Url.FriendlyURLTitle(item.Kategori.KategoriAdi),
+                        baslik =@Url.FriendlyURLTitle(item.Baslik),
+                        id =item.MakaleId
+                    })">@item.Baslik</a></li>
+            }
+        </ul>
+    </div>
+</div>
+
+

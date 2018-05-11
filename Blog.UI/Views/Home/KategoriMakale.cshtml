@@ -1,0 +1,14 @@
+﻿@model IEnumerable<Blog.Entity.Models.Makale>
+
+@{
+    ViewBag.Title = "Kategori Makale";
+}
+
+@using GridMvc.Html
+@Html.Grid(Model).Columns(columns =>
+{
+    columns.Add(m => m.Kategori.KategoriAdi).Titled("Kategori Adı").SetWidth(110).Sortable(true).Filterable(true);
+    columns.Add(m => m.Baslik).Sortable(true).Filterable(true);
+    columns.Add(m => m.Tarih).Sortable(true).Filterable(true);
+    columns.Add(m => m.Okunma).Sortable(true).Filterable(true);
+}).WithPaging(20)

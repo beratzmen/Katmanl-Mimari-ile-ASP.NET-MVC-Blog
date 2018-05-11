@@ -1,0 +1,127 @@
+﻿@model  List<Blog.Entity.Models.Kategori>
+@{
+    ViewBag.Title = "Makale Ekle";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+
+<script src='//cdn.tinymce.com/4/tinymce.min.js'></script>
+<script type="text/javascript">
+        tinymce.init({
+            selector: 'textarea', //nesne seçimi
+            height: 500, //yükseklik ayarı
+            theme: 'modern',
+            selector: "textarea",  // change this value according to your HTML
+            plugins: "textcolor",
+            toolbar: "forecolor backcolor",
+            textcolor_rows: "4",
+            //eklenti ve toolbar nesne seçimleri.
+            plugins: [
+              'advlist autolink lists link image charmap print preview hr anchor pagebreak',
+              'searchreplace wordcount visualblocks visualchars code fullscreen',
+              'insertdatetime media nonbreaking save table contextmenu directionality',
+              'emoticons template paste textcolor colorpicker textpattern imagetools codesample'
+            ],
+            toolbar1: 'insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image',
+            toolbar2: 'print preview media | forecolor backcolor emoticons codesample',
+
+            image_advtab: true,
+            templates: [
+              { title: 'Test template 1', content: 'Test 1' },
+              { title: 'Test template 2', content: 'Test 2' }
+            ],
+
+            //editör içerisinde kullanılacak css style kaynak yolu
+            content_css: [
+              '//fast.fonts.net/cssapi/e6dc9b99-64fe-4292-ad98-6974f93cd2a2.css',
+              'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'
+            ]
+        });
+</script>
+
+
+
+
+@using (Html.BeginForm("MakaleEkle", "AdminMakale", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="row clearfix">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="card">
+                <div class="header">
+                    <h1> MAKALE EKLE </h1>
+                    <ul class="header-dropdown m-r--5">
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <i class="material-icons">more_vert</i>
+                            </a>
+                            <ul class="dropdown-menu pull-right">
+                                <li><a href="javascript:void(0);">Action</a></li>
+                                <li><a href="javascript:void(0);">Another action</a></li>
+                                <li><a href="javascript:void(0);">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="body">
+                    <div class="row clearfix">
+                        <div class="col-sm-12">
+                            <select class="form-control show-tick" name="KategoriID">
+                                <option value="">--  KATEGORİ SEÇ  --</option>
+                                @foreach (var item in Model)
+                                {
+                                    <option value="@item.KategoriId">@item.KategoriAdi</option>                                   
+                                }
+                            </select><br /><br /><br /><br />
+                            <div class="form-group">
+                                <div class="form-line">
+                                    <input type="text" name="Baslik" class="form-control" placeholder="BAŞLIK" />
+                                </div>
+                            </div><br /><br /><br /><br />
+
+                            
+                          
+                           <div class="form-group">
+                               <div class="form-line">
+                                   @Html.TextArea("Icerik")
+                               </div>
+                           </div>
+
+                            @*<div class="editors-container">
+                                    <div class="editors-container">
+                                        <textarea rows="4" name="icerik" class="form-control no-resize" placeholder="İÇERİK"></textarea>
+                                    </div>
+                                </div><br /><br /><br /><br />*@
+                            <div class="form-group">
+                                <div class="form-line">
+                                    <input type="text" name="Etiketler" class="form-control" placeholder="ETİKET" />
+                                </div>
+                            </div><br /><br /><br /><br />
+                            <div class="form-group">
+                                <input type="file" name="Foto" id="Foto" accept=".jpg,.JPG,.jpeg,.JPEG,.gif,.png" class="form-control" />
+                            </div>
+                             <input type="time" name="Tarih" />
+                        </div>
+                        <input type="submit" class="btn btn-primary" value="Kaydet" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+
+
+
+
+<!-- Autosize Plugin Js -->
+<script src="~/Content/Admin/plugins/autosize/autosize.js"></script>
+<!-- Moment Plugin Js -->
+<script src="~/Content/Admin/plugins/momentjs/moment.js"></script>
+<!-- Bootstrap Material Datetime Picker Plugin Js -->
+<script src="~/Content/Admin/plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script>
+
+

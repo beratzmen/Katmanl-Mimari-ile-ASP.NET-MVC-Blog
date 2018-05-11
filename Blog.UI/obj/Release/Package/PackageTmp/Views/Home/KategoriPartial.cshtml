@@ -1,0 +1,31 @@
+﻿@model List<Blog.Entity.Models.Kategori>
+
+@{
+    Layout = null;
+}
+
+@using Blog.UI.Models
+<div class="card my-4" style="text-align:center">
+    <h5 class="card-header"> <i class="fas fa-tasks"> </i>   Kategoriler</h5>
+    <div class="card-body">
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-6">
+                    @*<a href="/Home/KategoriMakale/@item.KategoriId">@item.KategoriAdi (@item.Makale.Count())</a>*@
+
+                    <a href="@Url.Action("KategoriMakale","Home",
+                        new
+                    {
+                        kategori =@Url.FriendlyURLTitle(item.KategoriAdi),
+                        id =item.KategoriId
+                    })">@item.KategoriAdi (@item.Makale.Count())</a>
+
+                </div>
+            }
+        </div>
+    </div>
+</div>
+  
+
+
